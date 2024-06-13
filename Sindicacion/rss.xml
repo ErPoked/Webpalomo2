@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Web Palomo | Javier Chaparro Rivas</title>
+        <link>URL_DE_TU_SITIO_WEB_AQUI</link>
+        <description>Página personal de Javier Chaparro Rivas.</description>
+
+        <item>
+            <title>BASE DE DATOS</title>
+            <link>URL_DEL_PROYECTO_AQUI</link>
+            <description>Descripción del proyecto de bases de datos.</description>
+        </item>
+
+        <item>
+            <title>ADMINISTRACION DE REDES</title>
+            <link>URL_DEL_PROYECTO_AQUI</link>
+            <description>Descripción del proyecto de administración de redes.</description>
+        </item>
+
+        <item>
+            <title>SISTEMAS INFORMATICOS</title>
+            <link>URL_DEL_PROYECTO_AQUI</link>
+            <description>Descripción del proyecto de administración de redes.</description>
+        </item>
+        
+               <item>
+            <title>LENGUAJE DE MARCAS</title>
+            <link>URL_DEL_PROYECTO_AQUI</link>
+            <description>Descripción del proyecto de administración de redes.</description>
+        </item>
+        
+       <item>
+            <title>PROGRAMACION</title>
+            <link>URL_DEL_PROYECTO_AQUI</link>
+            <description>Descripción del proyecto de administración de redes.</description>
+        </item>
+    </channel>
+</rss>

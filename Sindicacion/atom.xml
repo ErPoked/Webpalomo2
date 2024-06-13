@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+    <title>Web Palomo | Javier Chaparro Rivas</title>
+    <link href="URL_DE_TU_SITIO_WEB_AQUI"/>
+    <updated>2024-06-12T00:00:00Z</updated>
+    <id>unique-id-for-your-feed</id>
+    <author>
+        <name>Javier Chaparro Rivas</name>
+    </author>
+    <subtitle>Página personal de Javier Chaparro Rivas.</subtitle>
+
+    <!-- Entrada para el primer proyecto -->
+    <entry>
+        <title>BASE DE DATOS</title>
+        <link href="URL_DEL_PROYECTO_AQUI"/>
+        <id>unique-id-for-project-1</id>
+        <updated>2024-06-12T00:00:00Z</updated>
+        <summary>Descripción del proyecto de bases de datos.</summary>
+    </entry>
+
+    <!-- Entrada para el segundo proyecto -->
+    <entry>
+        <title>ADMINISTRACION DE REDES</title>
+        <link href="URL_DEL_PROYECTO_AQUI"/>
+        <id>unique-id-for-project-2</id>
+        <updated>2024-06-12T00:00:00Z</updated>
+        <summary>Descripción del proyecto de administración de redes.</summary>
+    </entry>
+    
+     <entry>
+        <title>SISTEMAS OPERATIVOS</title>
+        <link href="URL_DEL_PROYECTO_AQUI"/>
+        <id>unique-id-for-project-2</id>
+        <updated>2024-06-12T00:00:00Z</updated>
+        <summary>Descripción del proyecto de administración de redes.</summary>
+    </entry>
+
+ <entry>
+        <title>LENGUAJE DE MARCAS</title>
+        <link href="URL_DEL_PROYECTO_AQUI"/>
+        <id>unique-id-for-project-2</id>
+        <updated>2024-06-12T00:00:00Z</updated>
+        <summary>Descripción del proyecto de administración de redes.</summary>
+    </entry>
+
+ <entry>
+        <title>PROGRAMACIÓN</title>
+        <link href="URL_DEL_PROYECTO_AQUI"/>
+        <id>unique-id-for-project-2</id>
+        <updated>2024-06-12T00:00:00Z</updated>
+        <summary>Descripción del proyecto de administración de redes.</summary>
+    </entry>
+
+
+    <!-- Puedes agregar más entradas para otros proyectos o secciones si lo deseas -->
+
+</feed>

@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="torneo_jcr.xsl"?> 
+<torneo>
+<equipo importe="56">
+<nombre>CMPS</nombre>
+<wins>2</wins>
+<nacionalidad>Española</nacionalidad>
+<jugadores>
+
+  <jugador ID="811253"> 
+  
+    <mote>Poked</mote>
+    <bajas>8</bajas>
+    <plataforma>pc</plataforma>
+    <tm>CMPS</tm>
+    
+  </jugador>
+  
+   <jugador ID="711251"> 
+  
+    <mote>ByAlex</mote>
+    <bajas>6</bajas>
+    <plataforma>pc</plataforma>
+     <tm>CMPS</tm>
+  </jugador>
+  
+   <jugador ID="163233"> 
+  
+    <mote>iNexo</mote>
+    <bajas>9</bajas>
+    <plataforma>pc</plataforma>
+     <tm>CMPS</tm>
+    
+  </jugador>
+
+</jugadores>
+</equipo>
+
+
+<equipo importe="56">
+<nombre>new_TFS</nombre>
+<wins>1</wins>
+<nacionalidad>Estado Unidense</nacionalidad>
+<jugadores>
+
+  <jugador ID="211226"> 
+  
+    <mote>Dacadom</mote>
+    <bajas>4</bajas>
+    <plataforma>pc</plataforma>
+     <tm>New_TFS</tm>
+    
+  </jugador>
+  
+   <jugador ID="146240"> 
+  
+    <mote>Inugami</mote>
+    <bajas>5</bajas>
+        <plataforma>consola</plataforma>
+        <tm>New_TFS</tm>
+    
+  </jugador>
+  
+   <jugador ID="271125"> 
+  
+    <mote>Qmelao</mote>
+    <bajas>4</bajas>
+        <plataforma>pc</plataforma>
+        <tm>New_TFS</tm>
+
+  </jugador>
+
+</jugadores>
+</equipo>
+
+
+
+</torneo>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<!-- Creado por Javier Chaparro Rivas-->
+<html lang="esp">
+
+<!--Cabecera-->
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lenguaje de marcas| Javier Chaparro Rivas </title>
+	<link rel="stylesheet" href= "../Estilos/Inicio.css">
+
+<!--FONT AWESOME-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+ integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
+<div class="margen-derecha">
+  <div class="home-content">
+
+    <h1>Lenguaje de <span>marcas</span></h1> 
+
+     <h3 class="articulo-texto"><span>TRANSFORMACIóN DE XML EN  HTML</span></h3>
+
+     <p>Para esta transformación de un documento xml a un documento html gracias a un documento .xsl por medio del terminal de ubuntu, tomaremos de referencia el documento .xml de a continuación<br>
+       <span><a href="../Sindicacion/torneo.txt">torneo.xml</a></span><br>
+       En este documento se nos describe en un hipotetico torneo de videojuegos del cual queremos obtener una tabla html en la que se recojan los siguientes datos: <br>
+       
+       <ul>
+        <li>Id del jugador</li>
+        <li>Mote del jugador</li>
+        <li>Kills o bajas que ha realizado el jugador en todo el torneo</li>
+        <li>Plataforma en la cual ha jugado dicho jugador</li>
+        <li>El equipo al que pertenece el jugador</li>
+       </ul>
+
+       <br><br>
+       <p> Y de los equipos:</p>
+       <ul>
+        <li>Importe en euros</li>
+        <li>Nombre del equipo</li>
+        <li>Victorias del equipo</li>
+        <li>Nacionalidad del equipo</li>
+       </ul>
+
+       <br>
+     </p>
+     <p>Una vez tengamos claro los datos a tener en cuenta, <span>comenzamos con la transformación</span></p>
+     <br>
+
+     <h3  class="articulo-texto"><span>¿QUE ES UN ARCHIVO .XSL?</span></h3>
+     <p>XSL, siglas en inglés de eXtensible Stylesheet Language, es una familia de lenguajes desarrollados
+        por el World Wide Web Consortium que permiten describir cómo debe ser presentada la información contenida en un documento XML.​</p>
+        <br>
+        <p>Es decir,XSL (Extensible Stylesheet Language) es el lenguaje utilizado para especificar reglas,
+        mientras que XML (Extensible Markup Language) es el lenguaje utilizado para los datos que forman una entrada de las reglas.</p>
+
+        <h3  class="articulo-texto"><span>TRANSFORMACIóN</span></h3>
+            <p>Comenzamos en la primera linea declarando que este archivo es un documento xml. <br><br>
+                Posteriormente en la segunda linea iniciamos el estilo
+                 xslt,xmlns:xsl="http://www.w3.org/1999/XSL/Transform":
+                 Especifica el espacio de nombres XML para los elementos XSLT. <br><br>
+                 
+                 En la tercera linea definimos una plantilla que se aplicara al nodo raiz del documento, es decir, a todo el documento
+                  gracias a la sentencia "match="/". 
+                <br><br>
+                Por ultimo comenzamos a definir como si de un documento html se tratase, con titulos, hojas de estilo,...
+            <br><br></p>
+            <img src="../Lenguaje/Transformación/Paso1.jpg">
+            <br><br>
+
+            <p>Dentro del contenido de nuestro archivo, es decir el body, comenzamos a crear las tablas en las cuales encontraremos los datos de las tablas o table data "td". 
+                Estos seran definidos dentro de "tr" para su posterior declaración.
+            </p>
+            <img src="../Lenguaje/Transformación/Paso2.jpg"><br><br>
+
+            <p>Comenzamos a declarar los elementos que formaran parte de la tabla <span>en el mismo orden en el cual hemos definido los td</span>. <br><br>
+            Al declarar los datos de la tabla debemos de tener en cuenta lo anteriormente citado, ademas de hacerlo con los respectivos nombres del archivo xml original y si
+        el elemento que queremos tener en nuestra tabla, se trata de un atributo en el xml original, bastara con colocar "@" antes del nombre del elemento original</p>
+        <br><br>
+        <p>Tambien es muy importante saber desde que ruta del XPATH nos situaremos para realizar dichas declaraciones, ya que de nada servira declarar sintacticamente bien el elemento
+            si no hemos definido la ruta desde la cual empezara a declararlos.
+        </p>
+        <br><br>
+        <img src="./Transformación/Paso3.jpg"><br><br>
+        <p>Con el parametro "sort" indicamos que ordene los datos, en este caso el orden sera por el nombre del equipo en orden alfabético</p><br><br>
+        <p>Para crear la siguiente tabla realizaremos el mismo procedimiento que en la anterior</p>
+        <br>
+        <img src="./Transformación/Paso4.jpg">
+        <p>En esta creación, se pueden ver más modificaciones en el orrden de la tabla. Ahora, la tabla estara ordenada conforme al jugador que mas bajas haya realizado
+            ademas de añadir color a la tabla. Si el jugador juega en la plataforma de PC tendra un color azul y de lo contrario, si juega en consola, poseera un color rojo.
+        </p>
+
+        <h3  class="articulo-texto"><span>FINALIZACIÓN</span></h3>
+        <p>Listo, tu documento .xsl deberia quedar como <a href="../Lenguaje/Transformación/torneo_jcr.xsl">este</a></p>
+        <br><br>
+            
+
+
+         </div>
+         </div>
+
+
+          <!---->
+       <footer class="footer" id="footer">
+        <div class="sindicacion">
+            <a href="../index.html"><i class="fa-solid fa-house"></i></a>
+            
+        </div>
+    
+        <p class="copyright">
+            © Javier Chaparro Rivas
+    
+        </p>
+           
+      
+    </footer>
+         </html>
