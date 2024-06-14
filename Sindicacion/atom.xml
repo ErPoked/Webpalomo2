@@ -2,57 +2,55 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
     <title>Web Palomo | Javier Chaparro Rivas</title>
-    <link href="URL_DE_TU_SITIO_WEB_AQUI"/>
+    <link href="https://erpoked.github.io/Webpalomo2"/>
     <updated>2024-06-12T00:00:00Z</updated>
-    <id>unique-id-for-your-feed</id>
+    <id>INICIO</id>
     <author>
         <name>Javier Chaparro Rivas</name>
     </author>
     <subtitle>Página personal de Javier Chaparro Rivas.</subtitle>
 
-    <!-- Entrada para el primer proyecto -->
+
     <entry>
         <title>BASE DE DATOS</title>
-        <link href="URL_DEL_PROYECTO_AQUI"/>
-        <id>unique-id-for-project-1</id>
+        <link href="https://erpoked.github.io/Webpalomo2/Imagenes/trabajando.jpg"/>
+        <id>GBD</id>
         <updated>2024-06-12T00:00:00Z</updated>
-        <summary>Descripción del proyecto de bases de datos.</summary>
+        <summary>Aqui se mostraran aquellos proyectos los cuales pertenezcan al ambito de la gestion de las bases de datos</summary>
     </entry>
 
-    <!-- Entrada para el segundo proyecto -->
+  
     <entry>
         <title>ADMINISTRACION DE REDES</title>
-        <link href="URL_DEL_PROYECTO_AQUI"/>
-        <id>unique-id-for-project-2</id>
+        <link href="https://erpoked.github.io/Webpalomo2/Imagenes/trabajando.jpg"/>
+        <id>PAR</id>
         <updated>2024-06-12T00:00:00Z</updated>
-        <summary>Descripción del proyecto de administración de redes.</summary>
+        <summary>Aqui se mostraran aquellos proyectos los cuales pertenezcan al ambito de la administracion de redes.</summary>
     </entry>
     
      <entry>
         <title>SISTEMAS OPERATIVOS</title>
-        <link href="URL_DEL_PROYECTO_AQUI"/>
-        <id>unique-id-for-project-2</id>
+        <link href="https://erpoked.github.io/Webpalomo2/Imagenes/trabajando.jpg"/>
+        <id>ISO</id>
         <updated>2024-06-12T00:00:00Z</updated>
-        <summary>Descripción del proyecto de administración de redes.</summary>
+        <summary>Aqui se mostraran aquellos proyectos los cuales pertenezcan al ambito de los diferentes sistemas operativos</summary>
     </entry>
 
  <entry>
         <title>LENGUAJE DE MARCAS</title>
-        <link href="URL_DEL_PROYECTO_AQUI"/>
-        <id>unique-id-for-project-2</id>
+        <link href="https://erpoked.github.io/Webpalomo2/Pages/Lenguaje.html"/>
+        <id>LDM</id>
         <updated>2024-06-12T00:00:00Z</updated>
-        <summary>Descripción del proyecto de administración de redes.</summary>
+        <summary>Aqui se mostraran aquellos proyectos los cuales pertenezcan al ambito de los distintos lenguajes de marcas</summary>
     </entry>
 
  <entry>
         <title>PROGRAMACIÓN</title>
-        <link href="URL_DEL_PROYECTO_AQUI"/>
-        <id>unique-id-for-project-2</id>
+        <link href="https://erpoked.github.io/Webpalomo2/Imagenes/trabajando.jpg"/>
+        <id>Programacion</id>
         <updated>2024-06-12T00:00:00Z</updated>
-        <summary>Descripción del proyecto de administración de redes.</summary>
+        <summary>Aqui se mostraran aquellos proyectos los cuales se han realizado con lenguajes de programación</summary>
     </entry>
 
-
-    <!-- Puedes agregar más entradas para otros proyectos o secciones si lo deseas -->
 
 </feed>
