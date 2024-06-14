@@ -2,37 +2,38 @@
 <rss version="2.0">
     <channel>
         <title>Web Palomo | Javier Chaparro Rivas</title>
-        <link>URL_DE_TU_SITIO_WEB_AQUI</link>
+        <link>https://erpoked.github.io/Webpalomo2/</link>
         <description>Página personal de Javier Chaparro Rivas.</description>
 
         <item>
             <title>BASE DE DATOS</title>
-            <link>URL_DEL_PROYECTO_AQUI</link>
-            <description>Descripción del proyecto de bases de datos.</description>
+            <link>https://erpoked.github.io/Webpalomo2/Imagenes/trabajando.jpg</link>
+            <description>Aqui se mostraran aquellos proyectos los cuales pertenezcan al ambito de la gestion de las bases de datos</description>
         </item>
 
         <item>
             <title>ADMINISTRACION DE REDES</title>
-            <link>URL_DEL_PROYECTO_AQUI</link>
-            <description>Descripción del proyecto de administración de redes.</description>
+            <link>https://erpoked.github.io/Webpalomo2/Imagenes/trabajando.jpg</link>
+            <description>Aqui se mostraran aquellos proyectos los cuales pertenezcan al ambito de la administracion de redes.</description>
         </item>
 
         <item>
-            <title>SISTEMAS INFORMATICOS</title>
-            <link>URL_DEL_PROYECTO_AQUI</link>
-            <description>Descripción del proyecto de administración de redes.</description>
+            <title>SISTEMAS OPERATIVOS</title>
+            <link>https://erpoked.github.io/Webpalomo2/Imagenes/trabajando.jpg</link>
+            <description>Aqui se mostraran aquellos proyectos los cuales pertenezcan al ambito de los diferentes sistemas operativos</description>
         </item>
         
                <item>
             <title>LENGUAJE DE MARCAS</title>
-            <link>URL_DEL_PROYECTO_AQUI</link>
-            <description>Descripción del proyecto de administración de redes.</description>
+            <link>https://erpoked.github.io/Webpalomo2/Pages/Lenguaje.html</link>
+            <description>Aqui se mostraran aquellos proyectos los cuales
+                        pertenezcan al ambito de los distintos lenguajes de marcas</description>
         </item>
         
        <item>
             <title>PROGRAMACION</title>
-            <link>URL_DEL_PROYECTO_AQUI</link>
-            <description>Descripción del proyecto de administración de redes.</description>
+            <link>https://erpoked.github.io/Webpalomo2/Imagenes/trabajando.jpg</link>
+            <description>Aqui se mostraran aquellos proyectos los cuales se han realizado con lenguajes de programación</description>
         </item>
     </channel>
 </rss>
